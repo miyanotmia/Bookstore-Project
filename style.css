@@ -1,0 +1,38 @@
+#newbookform{
+    background-color: #4b6472;
+    border-radius: 2%;
+    padding: 5px;
+    margin: 5px;
+
+}
+input{
+    width: 250px;
+    height: auto;
+padding: 1%;
+border-radius: 10px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-header, .table-row {
+  display: flex;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.table-item {
+  padding: 0 8px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.item-borders {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MiyanotMia's books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>Welcome to MnM Books</h1>
+<h3>Add new books here:</h3>
+<section>
+<form  id="newbookform" action="Add new book" method="post">
+   <div>
+     <label for="Title">Title</label>
+        <input 
+        type="text" 
+        id="title" 
+        name="book_title" 
+        placeholder="Title"
+        required>
+   </div> 
+        
+   <div>
+    <label for="Author">Author</label>
+    <input 
+    type="text" 
+    id="author" 
+    name="Author" 
+    placeholder="Author"
+    required>
+   </div> 
+
+    <div>
+        <label for="Publisher">Publisher</label>
+     <input type="text"
+      id="publsiher" 
+      name="publisher" 
+      placeholder="Publishing House"
+      required>
+    </div>
+     
+     
+<button type="submit" id="addbook">Add</button>
+
+</form>
+</section>
+<h2> Books in Stock </h2>
+<section id="booklist" class="table">
+
+  <section class="table-header">
+    <section class="table-item flex-1">Title</section>
+    <section class="table-item item-borders flex-1">Author</section>
+    <section class="table-item flex-1">Publisher</section>
+    <section class="table-item flex-1">Actions</section>
+  </section>
+</section>
+<script src="app.js"></script>
+</body>
+
+</html>
